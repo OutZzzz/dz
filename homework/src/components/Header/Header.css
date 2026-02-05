@@ -1,0 +1,30 @@
+.header {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header__menu__list-item {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 16px 12px;
+}
+
+.header__menu__list-link {
+  text-decoration: none;
+}
+
