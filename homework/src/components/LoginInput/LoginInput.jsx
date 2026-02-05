@@ -1,9 +1,9 @@
-import './LoginInput.css'
+import styles from './LoginInput.module.css'
 
 function LoginInput({value, onChange, placeholder}) {
   
   return (
-    <input className='input-login' type="text" placeholder={placeholder} value={value} onChange={onChange}/>
+    <input className={styles['input-login']} type="text" placeholder={placeholder} value={value} onChange={onChange}/>
   )
 }
 

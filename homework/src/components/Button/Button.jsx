@@ -1,9 +1,9 @@
-import './Button.css'
+import styles from './Button.module.css'
 
 function Button({text, onClick}) {
   
   return (
-    <button className='search-button-text' onClick={onClick}>{text}</button>
+    <button className={styles['search-button-text']} onClick={onClick}>{text}</button>
   )
 }
 
