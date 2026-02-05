@@ -1,9 +1,9 @@
-import './Paragraph.css'
+import styles from './Paragraph.module.css'
 
 function Paragraph({text}) {
   
   return (
-    <p className='header-paragraph'>{text}</p>
+    <p className={styles['header-paragraph']}>{text}</p>
   )
 }
 

@@ -1,4 +1,4 @@
-import './LoginInput.module.css'
+import styles from './LoginInput.module.css'
 
 function LoginInput({value, onChange, placeholder}) {
   
