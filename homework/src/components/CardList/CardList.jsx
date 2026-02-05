@@ -2,7 +2,7 @@ import './CardList.css'
 import Card from '../Card/Card';
 
 function CardList({ items }) {
-    if (items.lenght === 0) {
+    if (items.length === 0) {
         return <p>Фильмы не найдены</p>
     }
 
